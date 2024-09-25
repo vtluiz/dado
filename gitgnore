@@ -1,0 +1,4 @@
+# Ignorar arquivos desnecessários
+*.pyc
+__pycache__/
+*.log
