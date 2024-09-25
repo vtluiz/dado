@@ -1,0 +1,6 @@
+/SimuladorDados
+│
+├── /src
+│   └── simulador_dados.py
+├── .gitignore
+└── README.md
