@@ -1,0 +1,24 @@
+import random
+
+def lancar_dado():
+    return random.randint(1, 6)
+
+def simulador_dados():
+    print("---- Simulador de Lançamento de Dados ----")
+    
+    while True:
+        comando = input("\nDigite 'lancar' para lançar o dado ou 'sair' para encerrar: ").strip().lower()
+        
+        if comando == 'lancar':
+            resultado = lancar_dado()
+            print(f"O dado caiu no número: {resultado}")
+        
+        elif comando == 'sair':
+            print("Simulação encerrada.")
+            break
+        
+        else:
+            print("Comando inválido. Tente novamente.")
+
+if __name__ == "__main__":
+    simulador_dados()
